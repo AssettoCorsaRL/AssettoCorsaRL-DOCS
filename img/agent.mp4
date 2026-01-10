@@ -1,0 +1,3 @@
+PLACEHOLDER: Replace this file with the actual `agent.mp4` video.
+
+This is a placeholder text file named with a .mp4 extension so the repo contains the expected path. Replace it by adding your real MP4 file to `static/img/agent.mp4` (binary MP4) so it plays correctly in the site.

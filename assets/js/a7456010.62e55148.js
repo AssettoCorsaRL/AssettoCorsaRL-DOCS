@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkassetto_corsa_rl_docs=globalThis.webpackChunkassetto_corsa_rl_docs||[]).push([[235],{8552(s){s.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
