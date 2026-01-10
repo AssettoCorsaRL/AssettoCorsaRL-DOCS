@@ -1,5 +1,6 @@
 import React from "react";
 export default function IndexRedirect() {
-  if (typeof window !== "undefined") window.location.replace("/docs");
+  if (typeof window !== "undefined")
+    window.location.replace("/AssettoCorsaRL-DOCS/docs");
   return null;
 }
