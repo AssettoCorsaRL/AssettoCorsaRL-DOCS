@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkassetto_corsa_rl_docs=globalThis.webpackChunkassetto_corsa_rl_docs||[]).push([[583],{6866(o,s,e){function t(){return"undefined"!=typeof window&&window.location.replace("/AssettoCorsaRL-DOCS/docs"),null}e.r(s),e.d(s,{default:()=>t})}}]);

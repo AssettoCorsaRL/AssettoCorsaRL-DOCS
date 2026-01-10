@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkassetto_corsa_rl_docs=globalThis.webpackChunkassetto_corsa_rl_docs||[]).push([[583],{6866(o,s,e){e.r(s),e.d(s,{default:()=>a});var c=e(6540),t=e(6025);function a(){const o=(0,t.Ay)("/docs");return(0,c.useEffect)(()=>{"undefined"!=typeof window&&window.location.replace(o)},[o]),null}}}]);
