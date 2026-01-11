@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # AssettoCorsaRL
 
-<img src="/img/on_track.jpg" alt="On track" width="800" />
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img src={useBaseUrl('/img/on_track.jpg')} alt="On track" width="800" />
 
 A reinforcement learning project for driving in Assetto Corsa.
 
