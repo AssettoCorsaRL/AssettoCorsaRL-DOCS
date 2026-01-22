@@ -39,6 +39,13 @@ conda create -n acrl python=3.10
 conda activate acrl
 pip install assetto-corsa-rl
 ```
+
+Or, install from the GitHub repository:
+```bash
+git clone https://github.com/AssettoCorsaRL/AssettoCorsaRL
+cd assetto-corsa-rl
+pip install -e .
+```
 :::
 
 The `acrl` CLI command is now available in your terminal. Verify the installation:
