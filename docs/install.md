@@ -68,6 +68,10 @@ acrl --help
 - Follow this tutorial to install and activate the app (step at ~1:09 shows the installation):
   https://youtube.com/watch?si=LXBP1FOtXsphdDCk&t=69&v=EfT1T4W_5Ew&feature=youtu.be
 
+<video controls width="100%">
+  <source src="/AssettoCorsaRL-DOCS/video/ac_settings_setup.mp4" type="video/mp4" />
+</video>
+
 ### 4. Install the Monaco track (Monaco F1 2022):
 
 - Download from: https://www.assettoworld.com/track/2022-monaco-f1-grand-prix
@@ -78,11 +82,11 @@ acrl --help
 - Download from: https://www.virtual-racing-cars.com/p/formula-alpha-2022/
 - Drag & drop the car zip into **Content Manager** to install it.
 
-### 6. Run a Hotlap 🔧
+### 6. Run a Hotlap
 
-- Open **Content Manager** → select **Cars** → choose **VRC Formula Alpha 2022**.
-- Select **Drive → Hotlap**, and choose **Monaco (2022)** as the track.
-- Start the session.
+<video controls width="100%">
+  <source src="/AssettoCorsaRL-DOCS/video/ac_hotlap_setup.mp4" type="video/mp4" />
+</video>
 
 ## Next Steps
 
