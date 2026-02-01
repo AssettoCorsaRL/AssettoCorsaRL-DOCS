@@ -5,34 +5,13 @@ title: Quickstart
 
 Complete the [Install Guide](./install.md) and launch Assetto Corsa.
 
-## Record Demonstrations
-
-First, record demonstration laps around Monaco. This will create training data for the model to pretrain on:
-
-```bash
-acrl ac record-demonstrations --output-dir datasets/demonstrations --duration 999999999999
-```
-
-Drive laps around Monaco. The demonstrations will be saved to the specified output directory.
-
-
-
-## Train the Model
-
-After recording demonstrations, train the behavioral cloning model:
-
-```bash
-acrl ac train-bc --data-dir datasets/demonstrations --epochs 250 --batch-size 64 --dropout 0.3
-```
-
-You can use your computer for other tasks while training runs.
 
 ## Test the Model
 
-Load and test the trained model:
+Load and test the pretrained model:
 
 ```bash
-acrl ac test --ckpt models/bc_pretrained.pt --episodes 5
+acrl ac test --checkpoint absolute/path/of/bc_sac_pretrained.pt --vae-checkpoint absolute/path/of/loss=0.1050.ckpt --episodes 5
 ```
 
 :::warning
@@ -40,7 +19,7 @@ Assetto Corsa window should always be active during testing. You cannot use your
 :::
 
 :::tip Troubleshooting
-If the CLI shows the model's inputs but nothing happens in AC, check your vJoy installation. In Content Manager, it should be detected as "XBOX CONTROLLER" not "VJOY".
+If nothing happens in Assetto Corsa after running the script, check your vJoy installation. In Content Manager, navigate to Settings → Assetto Corsa → Controls and verify it displays "XBOX CONTROLLER" on the right. Then, after that, launch Assetto Corsa.
 :::
 
 

@@ -54,39 +54,59 @@ The `acrl` CLI command is now available in your terminal. Verify the installatio
 acrl --help
 ```
 
-## Setup
+### 2. Download the Pretrained Model
 
-### 2. Install Content Manager and the Custom Shaders Patch (CSP)
+Download the pretrained model from Hugging Face into a directory:
+
+
+```bash
+pip install huggingface_hub
+hf download ved-patel226/AssettoCorsaRL --local-dir .
+```
+
+:::tip Note Down Model Paths
+After downloading, note the absolute paths for:
+- `bc_sac_pretrained.pt`
+- `loss=0.1050.ckpt`
+
+You'll need these paths to test the model later.
+:::
+
+
+### 3. Install Content Manager and the Custom Shaders Patch (CSP)
 
 - Follow this video to install **Content Manager** and **Custom Shaders Patch** (step at ~1:08 shows the install process):
   https://youtu.be/qVjE2FG5MRA?si=cUVu5k7oIzNDJ-Wx&t=68
 - After installing Content Manager, install CSP through Content Manager's "Mods" or "Settings → Custom Shaders Patch" flow as shown in the video.
 
-### 3. Install the AssettoCorsaRL App
+### 4. Install the AssettoCorsaRL App
 
 - Download the latest release from: https://github.com/AssettoCorsaRL/AssettoCorsaRL-APP/releases
 - Follow this tutorial to install and activate the app (step at ~1:09 shows the installation):
   https://youtube.com/watch?si=LXBP1FOtXsphdDCk&t=69&v=EfT1T4W_5Ew&feature=youtu.be
 
-<video controls width="100%">
-  <source src="/AssettoCorsaRL-DOCS/video/ac_settings_setup.mp4" type="video/mp4" />
-</video>
-
-### 4. Install the Monaco track (Monaco F1 2022):
+### 5. Install the Monaco track (Monaco F1 2022):
 
 - Download from: https://www.assettoworld.com/track/2022-monaco-f1-grand-prix
 - After downloading, drag & drop the downloaded zip into **Content Manager** to install the track.
 
-### 5. Install the Formula Alpha 2022 car:
+### 6. Install the Formula Alpha 2022 car:
 
 - Download from: https://www.virtual-racing-cars.com/p/formula-alpha-2022/
 - Drag & drop the car zip into **Content Manager** to install it.
 
-### 6. Run a Hotlap
+## 7. Settings
+
+<video controls width="100%">
+  <source src="/AssettoCorsaRL-DOCS/video/ac_settings_setup.mp4" type="video/mp4" />
+</video>
+
+### 8. Run a Hotlap
 
 <video controls width="100%">
   <source src="/AssettoCorsaRL-DOCS/video/ac_hotlap_setup.mp4" type="video/mp4" />
 </video>
+
 
 ## Next Steps
 

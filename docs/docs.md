@@ -8,18 +8,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/on_track.jpg')} alt="On track" width="800" />
 
-A reinforcement learning project for driving in Assetto Corsa.
 
-> Tip: Check out the Weights & Biases dashboard for the latest runs.
+A reinforcement learning agent (using the SAC algorithm) learns to drive a Formula 1 car around the Monaco GP circuit in Assetto Corsa. The agent controls steering, acceleration, and braking by interacting with the track, receiving feedback, and improving over time.
 
-
-
-## 🚀 Roadmap
-
-- [x] Train a Soft Actor-Critic (SAC) agent on a simplified 2D environment: OpenAI’s CarRacing-v3.
-- [ ] Adapt and port the trained agent to the Assetto Corsa racing simulator.
-- [ ] Implement full race simulations using AI-driven race strategies.
-
+:::tip
+Check out the Weights & Biases dashboard for the latest runs.
+:::
 
 
 ## Contributing
