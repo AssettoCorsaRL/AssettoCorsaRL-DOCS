@@ -67,11 +67,17 @@ const config: Config = {
       //   src: 'img/logo.svg',
       // },
       items: [
+
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          to: '/racing-lines',
+          position: 'left',
+          label: 'Racing Line Downloads',
         },
         {
           href: 'https://github.com/AssettoCorsaRL/AssettoCorsaRL',
@@ -84,12 +90,16 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Navigation',
           items: [
             {
               label: 'Docs',
               to: '/docs',
             },
+            {
+              label: "Racing Line Downloads",
+              to: '/racing-lines'
+            }
           ],
         },
         {

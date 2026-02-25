@@ -44,7 +44,7 @@ Or, install from the GitHub repository:
 ```bash
 git clone https://github.com/AssettoCorsaRL/AssettoCorsaRL
 cd assetto-corsa-rl
-pip install -e .
+pip install -e ./assetto-corsa-rl
 ```
 :::
   
