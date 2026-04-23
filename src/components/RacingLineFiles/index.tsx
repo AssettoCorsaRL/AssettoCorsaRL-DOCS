@@ -26,6 +26,13 @@ const RacingLineFiles: React.FC = () => {
         Available JSON files (copy the link into <code>racing_line_path</code>{" "}
         in env config):
       </p>
+      <pre>
+        <code>
+          racing_line_path:
+          "https://assettocorsarl.github.io/AssettoCorsaRL-DOCS/json/brazil_racing_lines.json"
+          # path to racing line data file
+        </code>
+      </pre>
       <p>
         To find valid config locations on your computer, run{" "}
         <code>acrl ac config-locations</code> in your terminal.

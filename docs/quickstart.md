@@ -6,6 +6,15 @@ title: Quickstart
 Complete the [Install Guide](./install.md) and launch Assetto Corsa.
 
 
+## Test the PID:
+
+Test the PID (simpler, requires racing_line.json):
+
+```bash
+acrl ac drive-pid --line-file https://assettocorsarl.github.io/AssettoCorsaRL-DOCS/json/monaco_racing_lines.json
+```
+
+
 ## Test the Model
 
 Load and test the pretrained model:
